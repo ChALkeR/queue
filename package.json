@@ -1,0 +1,28 @@
+{
+  "name": "@chalker/queue",
+  "version": "1.0.0",
+  "description": "A trivial queue / mutex lock implementation",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChALkeR/queue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ChALkeR/queue/issues"
+  },
+  "homepage": "https://github.com/ChALkeR/queue",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.mjs"
+  ],
+  "dependencies": {},
+  "keywords": [
+    "queue",
+    "mutex",
+    "lock"
+  ]
+}
