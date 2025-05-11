@@ -1,6 +1,6 @@
 {
   "name": "@chalker/queue",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A trivial queue / mutex lock implementation",
   "license": "MIT",
   "type": "module",
