@@ -22,11 +22,7 @@ export class Queue {
     await new Promise(resolve => {
       this.#queue.push(() => {
         this.#busy++;
-        resolve(() => {
-          if (done) return;
-          done = true;
-          this.release();
-        });
+        resolve();
       });
       this.#run();
     });
